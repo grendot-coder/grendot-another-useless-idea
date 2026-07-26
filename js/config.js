@@ -164,7 +164,7 @@ window.PORTFOLIO_CONFIG = {
       batch: "BATCH 03",
       year: "2026",
       volume: "NET WT 310KB",
-      description: "A assignment to create a landing page. i choose toge production.",
+      description: "An assignment to create a landing page. i choose toge production.",
       tech: ["HTML", "CSS"],
       image: "img/landing.png",
       link: "https://drive.google.com/drive/folders/1WA-0xtVuj2vODOM_cZhSO9rmrPRsxZuY?usp=drive_link",
