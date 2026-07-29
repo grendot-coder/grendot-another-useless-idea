@@ -12,7 +12,7 @@ window.PORTFOLIO_CONFIG = {
     title: "GRENDY AGUSTI — Certified Frontend Dumbass",
     description: "Radical solutions to boring digital problems. Portfolio of Grendy Agusti, frontend developer.",
     // Browser tab icon. Empty = generated star-mark favicon.
-    favicon: ""
+    favicon: "favicon.svg"
   },
 
   /* ---------------------------------------------------------------------
