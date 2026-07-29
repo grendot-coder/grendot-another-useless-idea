@@ -122,7 +122,7 @@ window.PORTFOLIO_CONFIG = {
     subtext: "I build loud, sturdy, hyper-tactile interfaces for brands who refuse to blend in. No templates. No corporate fades. Just concentrate.",
     ctaPrimary:   { label: "Inspect The Work", href: "#work" },
     ctaSecondary: { label: "Deposit A Message", href: "#contact" },
-    marqueeText: "100% RETARDED • ZERO CORPORATE FADES • LAZYASS-PROGRAMMER • VANILLA JS ONLY • NO FRAMEWORK ADDITIVES • BRUTALIST BY DESIGN • ",
+    marqueeText: " ZERO CORPORATE FADES • LAZYASS-PROGRAMMER • VANILLA JS ONLY • NO FRAMEWORK ADDITIVES • BRUTALIST BY DESIGN • ",
     marqueeRepeat: 4
   },
 
@@ -223,8 +223,7 @@ window.PORTFOLIO_CONFIG = {
     social: [
       { label: "GitHub",   href: "https://github.com/grendot-coder" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/grendy-arvel-putra-agusti-803366384/" },
-      { label: "Twitter/X",href: "https://twitter.com" },
-      { label: "Dribbble", href: "https://dribbble.com" }
+      { label: "Facebook",href: "https://twitter.com" },
     ]
   },
 
