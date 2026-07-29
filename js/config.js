@@ -222,7 +222,7 @@ window.PORTFOLIO_CONFIG = {
     stampBottom: "HI ✶",
     social: [
       { label: "GitHub",   href: "https://github.com/grendot-coder" },
-      { label: "LinkedIn", href: "https://linkedin.com" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/grendy-arvel-putra-agusti-803366384/" },
       { label: "Twitter/X",href: "https://twitter.com" },
       { label: "Dribbble", href: "https://dribbble.com" }
     ]
