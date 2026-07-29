@@ -195,6 +195,10 @@ window.PORTFOLIO_CONFIG = {
       { label: "HTML",        value: "" },
       { label: "CSS",   value: "" },
       { label: "JavaScript",     value: "" },
+      { label: "Python",     value: "" },
+      { label: "C++",     value: "" },
+      
+       
     ],
     principlesTitle: "Core Principles",
     principles: [
@@ -207,7 +211,7 @@ window.PORTFOLIO_CONFIG = {
   },
 
   contact: {
-    kicker: "RECYCLING STATION",
+    kicker: "MAIL STATION",
     heading: "Deposit Your Message",
     subtext: "Return empty ideas here for a full refund of your inbox's boredom. Response time: 1–2 business days, glass fully rinsed.",
     email: "grendy.xpplg2@gmail.comm",
