@@ -9,7 +9,7 @@
 window.PORTFOLIO_CONFIG = {
 
   meta: {
-    title: "GRENDY AGUSTI — Certified Frontend Dumbass",
+    title: "Grendy Agusti — Front End Enjoyer",
     description: "Radical solutions to boring digital problems. Portfolio of Grendy Agusti, frontend developer.",
     // Browser tab icon. Empty = generated star-mark favicon.
     favicon: "favicon.svg"
