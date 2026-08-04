@@ -62,11 +62,16 @@ window.PORTFOLIO_CONFIG = {
       hero: {
         kicker: "BATCH No. 002 — KODE 100% ABSTRAK",
         titleLines: ["GRENDY", "AGUSTI"],
-        tagline: "Bikin solusi digital aneh yang nggak ngebosenin.",
+        tagline: "Bikin solusi digital gajelas yang nggak ngebosenin.",
         subtext: "Bikin UI yang nyentrik dan nendang buat brand yang males ngeblend. No corporate vibes.",
         ctaPrimary: { label: "Liat Kerjaan", href: "#work" },
         ctaSecondary: { label: "Kirim DM", href: "#contact" },
         marqueeText: "100% RETARDED • ZERO CORPORATE FADES • LAZYASS-PROGRAMMER • VANILLA JS ONLY • NO FRAMEWORK ADDITIVES • BRUTALIST BY DESIGN"
+      },
+      work: {
+        kicker: "SECTION DAGANGAN",
+        title: "Kerjaan<br>Pilihan",
+        desc: "Koleksi project terbaru. Semuanya di-bottle, di-label, dan di-ship dengan opini yang kuat."
       },
       manifesto: {
         kicker: "INFO GIZI",
@@ -87,14 +92,9 @@ window.PORTFOLIO_CONFIG = {
           "Bosen = bahaya, ojo dijarno wae."
         ]
       },
-      work: {
-        kicker: "PRODUCE SECTION",
-        title: "Kerjaan<br>Pilihan",
-        desc: "Koleksi project terbaru. Semuanya di-bottle, di-label, dan di-ship dengan opini yang kuat."
-      },
       contact: {
-        kicker: "RECYCLING STATION",
-        heading: "Kirim Pesanmu",
+        kicker: "STASIUN DAUR ULANG",
+        heading: "Kirim<br>Pesanmu",
         subtext: "Masukin aja ide mu di sini, bakal ku bales. Estimasi bales: 1–2 hari kerja. Santai.",
         fields: {
           name: "Nama Anda",
@@ -129,7 +129,7 @@ window.PORTFOLIO_CONFIG = {
   hero: {
     kicker: "BATCH No. 002 — 100% ABSTRACT CODE",
     titleLines: ["GRENDY", "AGUSTI"],
-    tagline: "Stupid solutions to boring digital problems.",
+    tagline: "Radical solutions to boring digital problems.",
     subtext: "I build loud, sturdy, hyper-tactile interfaces for brands who refuse to blend in. No templates. No corporate fades. Just concentrate.",
     ctaPrimary:   { label: "Inspect The Work", href: "#work" },
     ctaSecondary: { label: "Deposit A Message", href: "#contact" },
@@ -197,6 +197,12 @@ window.PORTFOLIO_CONFIG = {
     },
 
   ],
+
+  work: {
+    kicker: "PRODUCE SECTION",
+    title: "Selected<br>Produce",
+    desc: "A crate of recent builds. Each one bottled, labeled, and shipped with strong opinions."
+  },
 
   manifesto: {
     kicker: "NUTRITION FACTS",
