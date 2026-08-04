@@ -74,7 +74,8 @@ input, textarea{ font-family: inherit; }
 .grain{
   position: fixed; inset: 0; z-index: 9998; pointer-events: none;
   opacity: .05; mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' result='noise'/%3E%3CfeDisplacementMap in='SourceGraphic' in2='noise' scale='15'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 120px 120px;
 }
 
 /* -------------------------------- cursor -------------------------------- */
@@ -172,6 +173,28 @@ input, textarea{ font-family: inherit; }
 }
 .sticker--corner{ top: -18px; right: -18px; background: var(--pink); color: var(--bg); }
 .sticker--rotate{ bottom: -16px; left: 18px; transform: rotate(-6deg); }
+
+/* ID badge label */
+.id-badge{
+  position: absolute;
+  bottom: 14px; left: 14px;
+  background: var(--charcoal);
+  border: 2px solid var(--charcoal);
+  padding: 8px 10px;
+  transform: rotate(-3.5deg);
+  box-shadow: 3px 3px 0 0 var(--charcoal);
+  z-index: 10;
+}
+.id-badge__text{
+  display: block;
+  color: var(--lime);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: .55rem;
+  letter-spacing: .08em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
 
 /* placeholder svg shared look */
 .ph-bg{ fill: var(--forest); }
@@ -635,4 +658,25 @@ input, textarea{ font-family: inherit; }
   .card{ grid-column: span 1 !important; }
   .work{ padding-top: 80px; }
   .hero{ padding-top: calc(var(--nav-h) + 34px); }
+  
+  .id-badge{
+    bottom: 10px;
+    left: 10px;
+    padding: 6px 8px;
+  }
+  .id-badge__text{
+    font-size: .5rem;
+  }
+}
+
+@media (max-width: 480px){
+  .id-badge{
+    bottom: 8px;
+    left: 8px;
+    padding: 5px 6px;
+    box-shadow: 2px 2px 0 0 var(--charcoal);
+  }
+  .id-badge__text{
+    font-size: .45rem;
+  }
 }
