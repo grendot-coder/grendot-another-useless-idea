@@ -70,10 +70,10 @@ window.PORTFOLIO_CONFIG = {
       },
       manifesto: {
         kicker: "INFO GIZI",
-        title: "Bahan-Bahan Radikal",
+        title: "Spesifikasi<br>Teknis",
         subtitleLabel: "Porsi:",
         subtitleText: "1 portofolio. Porsi tiap proyek beda-beda.",
-        principlesTitle: "Rules",
+        principlesTitle: "Prinsip Inti",
         ingredients: [
           { label: "HTML", value: "" },
           { label: "CSS", value: "" },
@@ -87,6 +87,11 @@ window.PORTFOLIO_CONFIG = {
           "Bosen = bahaya, ojo dijarno wae."
         ]
       },
+      work: {
+        kicker: "PRODUCE SECTION",
+        title: "Kerjaan<br>Pilihan",
+        desc: "Koleksi project terbaru. Semuanya di-bottle, di-label, dan di-ship dengan opini yang kuat."
+      },
       contact: {
         kicker: "RECYCLING STATION",
         heading: "Kirim Pesanmu",
@@ -98,9 +103,15 @@ window.PORTFOLIO_CONFIG = {
         },
         submitLabel: "Kirim Sekarang",
         stampTop: "SAPA",
-        stampBottom: "DONG ✶"
+        stampBottom: "DONG ✶",
+        social: [
+          { label: "GitHub", href: "https://github.com/grendot-coder" },
+          { label: "LinkedIn", href: "https://www.linkedin.com/in/grendy-arvel-putra-agusti-803366384/" },
+          { label: "Facebook", href: "https://twitter.com" }
+        ]
       },
       footer: {
+        text: "Diseduh dalam batch kecil. Tanpa aditif korporat. © 2026 Grendy Agusti.",
         backToTop: "Balik ke atas ↑"
       },
       messages: {
@@ -189,7 +200,7 @@ window.PORTFOLIO_CONFIG = {
 
   manifesto: {
     kicker: "NUTRITION FACTS",
-    title: "Radical Ingredients",
+    title: "Technical<br>Specification",
     subtitle: "Serving size: 1 (one) portfolio. Amount per project may vary.",
     ingredients: [
       { label: "HTML",        value: "" },
