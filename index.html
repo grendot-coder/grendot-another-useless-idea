@@ -58,7 +58,7 @@
 
     <div class="hero-inner">
       <p class="hero-kicker">
-        <span class="tape">BATCH No. 004 — 100% HANDCRAFTED CODE</span>
+        <span class="tape" id="hero-kicker">BATCH No. 004 — 100% HANDCRAFTED CODE</span>
       </p>
 
       <h1 class="hero-title">
@@ -67,12 +67,12 @@
       </h1>
 
       <div class="hero-content">
-        <p class="hero-tagline">Radical solutions to <span class="highlight">boring</span> digital problems.</p>
-        <p class="hero-subtext">I build loud, sturdy, hyper-tactile interfaces for brands who refuse to blend in. No templates. No corporate fades. Just concentrate.</p>
+        <p class="hero-tagline" id="hero-tagline">Radical solutions to <span class="highlight">boring</span> digital problems.</p>
+        <p class="hero-subtext" id="hero-subtext">I build loud, sturdy, hyper-tactile interfaces for brands who refuse to blend in. No templates. No corporate fades. Just concentrate.</p>
 
         <div class="hero-ctas">
-          <a href="#work" class="btn btn--pink">Inspect The Work</a>
-          <a href="#contact" class="btn btn--outline">Deposit A Message</a>
+          <a href="#work" class="btn btn--pink" id="hero-cta-primary">Inspect The Work</a>
+          <a href="#contact" class="btn btn--outline" id="hero-cta-secondary">Deposit A Message</a>
         </div>
       </div>
 
@@ -108,9 +108,9 @@
   <!-- ============================== WORK ============================== -->
   <section class="work" id="work">
     <div class="section-head">
-      <p class="section-kicker"><span class="tape tape--lime">PRODUCE SECTION</span></p>
-      <h2 class="section-title">Selected<br>Produce</h2>
-      <p class="section-desc">A crate of recent builds. Each one bottled, labeled, and shipped with strong opinions.</p>
+      <p class="section-kicker"><span class="tape tape--lime" id="work-kicker">PRODUCE SECTION</span></p>
+      <h2 class="section-title" id="work-title">Selected<br>Produce</h2>
+      <p class="section-desc" id="work-desc">A crate of recent builds. Each one bottled, labeled, and shipped with strong opinions.</p>
     </div>
 
     <div class="work-grid" id="work-grid">
@@ -135,11 +135,11 @@
       </div>
 
       <div class="about-copy">
-        <p class="section-kicker"><span class="tape">NUTRITION FACTS</span></p>
-        <h2 class="section-title">Radical<br>Ingredients</h2>
+        <p class="section-kicker"><span class="tape" id="manifesto-kicker">NUTRITION FACTS</span></p>
+        <h2 class="section-title" id="manifesto-title">Technical<br>Specification</h2>
 
         <div class="nutrition-box">
-          <div class="nutrition-box__head">
+          <div class="nutrition-box__head" id="manifesto-subtitle">
             <strong>Serving size:</strong> 1 (one) portfolio
             <span class="nutrition-box__sub">Amount per project may vary</span>
           </div>
@@ -149,7 +149,7 @@
         </div>
 
         <div class="principles">
-          <h3 class="principles__title">Core Principles</h3>
+          <h3 class="principles__title" id="manifesto-principles-title">Core Principles</h3>
           <ul class="principles__list" id="principles-list">
             <!-- injected by script.js -->
           </ul>
@@ -161,33 +161,33 @@
   <!-- ============================== CONTACT ============================== -->
   <section class="contact" id="contact">
     <div class="section-head section-head--center">
-      <p class="section-kicker"><span class="tape tape--lime">RECYCLING STATION</span></p>
-      <h2 class="section-title">Deposit Your<br>Message</h2>
-      <p class="section-desc">Return empty ideas here for a full refund of your inbox's boredom. Response time: 1–2 business days, glass fully rinsed.</p>
+      <p class="section-kicker"><span class="tape tape--lime" id="contact-kicker">RECYCLING STATION</span></p>
+      <h2 class="section-title" id="contact-title">Deposit Your<br>Message</h2>
+      <p class="section-desc" id="contact-desc">Return empty ideas here for a full refund of your inbox's boredom. Response time: 1–2 business days, glass fully rinsed.</p>
     </div>
 
     <div class="contact-grid">
       <form class="contact-form" id="contact-form" novalidate>
         <label class="field">
-          <span class="field__label">01 / Your Name</span>
+          <span class="field__label" id="field-label-name">01 / Your Name</span>
           <input type="text" name="name" id="field-name" required autocomplete="name">
         </label>
         <label class="field">
-          <span class="field__label">02 / Your Email</span>
+          <span class="field__label" id="field-label-email">02 / Your Email</span>
           <input type="email" name="email" id="field-email" required autocomplete="email">
         </label>
         <label class="field">
-          <span class="field__label">03 / What are we brewing?</span>
+          <span class="field__label" id="field-label-message">03 / What are we brewing?</span>
           <textarea name="message" id="field-message" rows="5" required></textarea>
         </label>
-        <button type="submit" class="btn btn--pink btn--block">Deposit Now</button>
+        <button type="submit" class="btn btn--pink btn--block" id="contact-submit">Deposit Now</button>
         <p class="field__status" id="form-status" role="status" aria-live="polite"></p>
       </form>
 
       <div class="contact-side">
         <a href="mailto:hello@noavermeer.dev" class="mail-stamp">
-          <span class="mail-stamp__line">SAY</span>
-          <span class="mail-stamp__line">HI ✶</span>
+          <span class="mail-stamp__line" id="stamp-top">SAY</span>
+          <span class="mail-stamp__line" id="stamp-bottom">HI ✶</span>
           <span class="mail-stamp__sub" id="mail-address">grendy.xpplg2@gmail.com</span>
         </a>
 
