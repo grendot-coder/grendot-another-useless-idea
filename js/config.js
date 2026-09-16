@@ -66,7 +66,7 @@ window.PORTFOLIO_CONFIG = {
         subtext: "Bikin UI yang nyentrik dan nendang buat brand yang males ngeblend. No corporate vibes.",
         ctaPrimary: { label: "Liat Kerjaan", href: "#work" },
         ctaSecondary: { label: "Kirim DM", href: "#contact" },
-        marqueeText: "100% RETARDED • ZERO CORPORATE FADES • LAZYASS-PROGRAMMER • VANILLA JS ONLY • NO FRAMEWORK ADDITIVES • BRUTALIST BY DESIGN"
+        marqueeText: "ZERO CORPORATE FADES • LAZY-PROGRAMMER • VANILLA JS ONLY • NO FRAMEWORK ADDITIVES • BRUTALIST BY DESIGN(Not so much)"
       },
       work: {
         kicker: "SECTION DAGANGAN",
@@ -89,13 +89,13 @@ window.PORTFOLIO_CONFIG = {
           "lek lemot loadingnya, nggak dikirim.",
           "Aksesibilitas itu wajib, bukan aksesoris.",
           "Setiap piksel harus kerasa dibuat, bukan kebetulan.",
-          "Bosen = bahaya, ojo dijarno wae."
+          "Bosen? , ojo dijarno wae."
         ]
       },
       contact: {
-        kicker: "STASIUN DAUR ULANG",
+        kicker: "STASIUN D",
         heading: "Kirim<br>Pesanmu",
-        subtext: "Masukin aja ide mu di sini, bakal ku bales. Estimasi bales: 1–2 hari kerja. Santai.",
+        subtext: "Masukin aja ide anda di sini, bakal saya balas. Estimasi balas: 1–2 hari kerja.",
         fields: {
           name: "Nama Anda",
           email: "Email Anda",
@@ -110,12 +110,8 @@ window.PORTFOLIO_CONFIG = {
           { label: "Facebook", href: "https://twitter.com" }
         ]
       },
-      footer: {
-        text: "Diseduh dalam batch kecil. Tanpa aditif korporat. © 2026 Grendy Agusti.",
-        backToTop: "Balik ke atas ↑"
-      },
       messages: {
-        submitSuccess: "✶ Beres! bakal ku bales dalam 1–2 hari kerja."
+        submitSuccess: "✶ Beres! bakal saya balas dalam 1–2 hari kerja."
       }
     }
   },
@@ -130,7 +126,7 @@ window.PORTFOLIO_CONFIG = {
     kicker: "BATCH No. 002 — 100% ABSTRACT CODE",
     titleLines: ["GRENDY", "AGUSTI"],
     tagline: "Radical solutions to boring digital problems.",
-    subtext: "I build loud, sturdy, hyper-tactile interfaces for brands who refuse to blend in. No templates. No corporate fades. Just concentrate.",
+    subtext: "I build unconventional interfaces for who refuse to blend in. No templates. No corporate fades. Just concentrate.",
     ctaPrimary:   { label: "Inspect The Work", href: "#work" },
     ctaSecondary: { label: "Deposit A Message", href: "#contact" },
     marqueeText: " ZERO CORPORATE FADES • LAZYASS-PROGRAMMER • VANILLA JS ONLY • NO FRAMEWORK ADDITIVES • BRUTALIST BY DESIGN • ",
